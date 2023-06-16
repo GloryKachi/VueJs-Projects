@@ -1,0 +1,19 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "backend": "json-server --watch db.json --port 5000",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "serve": "^14.2.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
